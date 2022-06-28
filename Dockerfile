@@ -1,6 +1,7 @@
 FROM apache/airflow:2.3.2-python3.10
 
 USER root
+
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
          build-essential \
